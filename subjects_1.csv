@@ -1,114 +1,113 @@
 subject_id,subject_name,subject_program,subject_semester,year_count,years_offered,offered_every_year
-63202,Osnove matematične analize,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63203,Diskretne strukture,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63204,Osnove digitalnih vezij,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63205,Fizika,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63207,Linearna algebra,UNI,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63208,Osnove podatkovnih baz,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63209,Računalniške komunikacije,UNI,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63212,Arhitektura računalniških sistemov,UNI,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63213,Verjetnost in statistika,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63214,Osnove umetne inteligence,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63215,Osnove informacijskih sistemov,UNI,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63216,Teorija informacij in sistemov,UNI,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63217,Operacijski sistemi,UNI,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63218,Organizacija računalniških sistemov,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63219,Matematično modeliranje,UNI,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63220,Principi programskih jezikov,UNI,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63221,Računalniške tehnologije,UNI,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63225B,Izbrana poglavja iz računalništva in informatike,UNI,1,2,"['18/19', '19/20']",False
-63226,Tehnologija upravljanja podatkov,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63202,Osnove matematične analize,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63203,Diskretne strukture,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63204,Osnove digitalnih vezij,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63205,Fizika,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63207,Linearna algebra,UNI,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63208,Osnove podatkovnih baz,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63209,Računalniške komunikacije,UNI,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63212,Arhitektura računalniških sistemov,UNI,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63213,Verjetnost in statistika,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63214,Osnove umetne inteligence,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63215,Osnove informacijskih sistemov,UNI,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63216,Teorija informacij in sistemov,UNI,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63217,Operacijski sistemi,UNI,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63218,Organizacija računalniških sistemov,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63219,Matematično modeliranje,UNI,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63220,Principi programskih jezikov,UNI,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63221,Računalniške tehnologije,UNI,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63225B,Izbrana poglavja iz računalništva in informatike,UNI,1,1,['19/20'],False
+63226,Tehnologija upravljanja podatkov,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
 63240,Športna vzgoja,UNI,1,2,"['22/23', '24/25']",False
 63240A,Športna vzgoja 2,UNI,2,2,"['23/24', '24/25']",False
-63248,Ekonomika in podjetništvo,UNI,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63249,Elektronsko poslovanje,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63250,Organizacija in management,UNI,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63251,Uvod v odkrivanje znanj iz podatkov,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63252,Razvoj informacijskih sistemov,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63253,Planiranje in upravljanje informatike,UNI,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63254,Postopki razvoja programske opreme,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63255,Spletno programiranje,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63256,Tehnologija programske opreme,UNI,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63257,Modeliranje računalniških omrežij,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63258,Komunikacijski protokoli,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63259,Brezžična in mobilna omrežja,UNI,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63260,Digitalno načrtovanje,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63261,Porazdeljeni sistemi,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63262,Zanesljivost in zmogljivost računalniških sistemov,UNI,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63263,Analiza algoritmov in hevristično reševanje problemov,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63264,Sistemska programska oprema,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63265,Prevajalniki,UNI,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63266,Inteligentni sistemi,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63267,Umetno zaznavanje,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63268,Razvoj inteligentnih sistemov,UNI,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63269,Računalniška grafika in tehnologija iger,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63270,Multimedijski sistemi,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63271,Osnove oblikovanja,UNI,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63277,Programiranje 1,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63278,Programiranje 2,UNI,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63279,Algoritmi in podatkovne strukture 1,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63280,Algoritmi in podatkovne strukture 2,UNI,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63281,Diplomski seminar,UNI,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63283,Izračunljivost in računska zahtevnost,UNI,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63284,Tehnične veščine,UNI,1,2,"['18/19', '19/20']",False
-63284B,Tehnične veščine,UNI,2,1,['18/19'],False
+63248,Ekonomika in podjetništvo,UNI,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63249,Elektronsko poslovanje,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63250,Organizacija in management,UNI,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63251,Uvod v odkrivanje znanj iz podatkov,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63252,Razvoj informacijskih sistemov,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63253,Planiranje in upravljanje informatike,UNI,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63254,Postopki razvoja programske opreme,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63255,Spletno programiranje,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63256,Tehnologija programske opreme,UNI,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63257,Modeliranje računalniških omrežij,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63258,Komunikacijski protokoli,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63259,Brezžična in mobilna omrežja,UNI,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63260,Digitalno načrtovanje,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63261,Porazdeljeni sistemi,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63262,Zanesljivost in zmogljivost računalniških sistemov,UNI,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63263,Analiza algoritmov in hevristično reševanje problemov,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63264,Sistemska programska oprema,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63265,Prevajalniki,UNI,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63266,Inteligentni sistemi,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63267,Umetno zaznavanje,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63268,Razvoj inteligentnih sistemov,UNI,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63269,Računalniška grafika in tehnologija iger,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63270,Multimedijski sistemi,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63271,Osnove oblikovanja,UNI,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63277,Programiranje 1,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63278,Programiranje 2,UNI,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63279,Algoritmi in podatkovne strukture 1,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63280,Algoritmi in podatkovne strukture 2,UNI,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63281,Diplomski seminar,UNI,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63283,Izračunljivost in računska zahtevnost,UNI,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63284,Tehnične veščine,UNI,1,1,['19/20'],False
 63284C,Tehnične veščine,UNI,2,1,['19/20'],False
 63284D,Tehnične veščine,UNI,1,2,"['20/21', '21/22']",False
 63286,Informacijsko-komunikacijske tehnologije in družba,UNI,1,3,"['21/22', '22/23', '23/24']",False
-63287,Programiranje specifičnih platform,UNI,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63288,Multimedijske vsebine,UNI,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63287,Programiranje specifičnih platform,UNI,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63288,Multimedijske vsebine,UNI,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
 63289,Varnost komunikacij in zaščita vsebin,UNI,1,5,"['20/21', '21/22', '22/23', '23/24', '24/25']",False
-63701,Uvod v računalništvo,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63702,Programiranje 1,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63701,Uvod v računalništvo,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63702,Programiranje 1,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
 63702DJ,Programiranje I,VSS,1,2,"['22/23', '23/24']",False
 63702I,Programiranje 1,VSS,1,1,['24/25'],False
-63703,Računalniška arhitektura,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63704,Matematika,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63705,Diskretne strukture,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63706,Programiranje 2,VSS,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63707,Podatkovne baze,VSS,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63708,Računalniške komunikacije,VSS,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63709,Operacijski sistemi,VSS,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63710,Osnove verjetnosti in statistike,VSS,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63711,Algoritmi in podatkovne strukture 1,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63712,Elektronsko in mobilno poslovanje,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63713,Podatkovne baze 2,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63714,Informacijski sistemi,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63715,Grafično oblikovanje,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63716,Komunikacijski protokoli in omrežna varnost,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63717,Organizacija računalnikov,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63718,Digitalna vezja,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63719,Računalniška grafika,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63720,Umetna inteligenca,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63721,Uporabniški vmesniki,VSS,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63722,Prevajalniki in navidezni stroji,VSS,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63723,Algoritmi in podatkovne strukture 2,VSS,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63724,Testiranje in kakovost,VSS,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63725,Razvoj informacijskih sistemov,VSS,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63726,Produkcija multimedijskih gradiv,VSS,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63727,Spletne tehnologije,VSS,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63728,Vhodno-izhodne naprave,VSS,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63729,Načrtovanje digitalnih naprav,VSS,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63732,Tehnologija programske opreme,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63734,Multimedijske tehnologije,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63735,Vzporedni in porazdeljeni sistemi in algoritmi,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63736,Sistemska programska oprema,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63737,Procesna avtomatika,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63738,Vgrajeni sistemi,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63739,Robotika in računalniško zaznavanje,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63740,Tehnologija iger in navidezna resničnost,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63741,Odločitveni sistemi,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63742,Numerične metode,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63744,Digitalno procesiranje signalov,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63749B,Izbrana poglavja iz računalništva in informatike,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63703,Računalniška arhitektura,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63704,Matematika,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63705,Diskretne strukture,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63706,Programiranje 2,VSS,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63707,Podatkovne baze,VSS,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63708,Računalniške komunikacije,VSS,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63709,Operacijski sistemi,VSS,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63710,Osnove verjetnosti in statistike,VSS,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63711,Algoritmi in podatkovne strukture 1,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63712,Elektronsko in mobilno poslovanje,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63713,Podatkovne baze 2,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63714,Informacijski sistemi,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63715,Grafično oblikovanje,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63716,Komunikacijski protokoli in omrežna varnost,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63717,Organizacija računalnikov,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63718,Digitalna vezja,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63719,Računalniška grafika,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63720,Umetna inteligenca,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63721,Uporabniški vmesniki,VSS,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63722,Prevajalniki in navidezni stroji,VSS,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63723,Algoritmi in podatkovne strukture 2,VSS,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63724,Testiranje in kakovost,VSS,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63725,Razvoj informacijskih sistemov,VSS,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63726,Produkcija multimedijskih gradiv,VSS,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63727,Spletne tehnologije,VSS,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63728,Vhodno-izhodne naprave,VSS,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63729,Načrtovanje digitalnih naprav,VSS,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63732,Tehnologija programske opreme,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63734,Multimedijske tehnologije,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63735,Vzporedni in porazdeljeni sistemi in algoritmi,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63736,Sistemska programska oprema,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63737,Procesna avtomatika,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63738,Vgrajeni sistemi,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63739,Robotika in računalniško zaznavanje,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63740,Tehnologija iger in navidezna resničnost,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63741,Odločitveni sistemi,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63742,Numerične metode,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63744,Digitalno procesiranje signalov,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63749B,Izbrana poglavja iz računalništva in informatike,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
 63750,Športna vzgoja 1,VSS,1,4,"['20/21', '22/23', '23/24', '24/25']",False
-63765,Podatkovno rudarjenje,VSS,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63765,Podatkovno rudarjenje,VSS,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
 63766A,Tehnične veščine 2,VSS,2,1,['22/23'],False
 63766B,Tehnične veščine 2,VSS,2,1,['24/25'],False
-63767,Tehnične veščine,VSS,1,3,"['18/19', '19/20', '24/25']",False
+63767,Tehnične veščine,VSS,1,2,"['19/20', '24/25']",False
 63767A,Tehnične veščine,VSS,1,4,"['20/21', '21/22', '22/23', '23/24']",False
-63768,Planiranje in upravljanje informatike,VSS,1,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
-63770,Diplomski seminar,VSS,2,7,"['18/19', '19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63768,Planiranje in upravljanje informatike,VSS,1,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
+63770,Diplomski seminar,VSS,2,6,"['19/20', '20/21', '21/22', '22/23', '23/24', '24/25']",True
 63771,Športna vzgoja 2,VSS,2,2,"['23/24', '24/25']",False
 63772,Pravni vidiki informacijskih tehnologij,VSS,2,2,"['23/24', '24/25']",False
 63773,Varnost organizacij,VSS,1,2,"['23/24', '24/25']",False
