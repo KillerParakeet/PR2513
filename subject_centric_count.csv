@@ -1,0 +1,110 @@
+subject_id,subject_name,19/20_1,19/20_2,20/21_1,20/21_2,21/22_1,21/22_2,22/23_1,22/23_2,23/24_1,23/24_2,24/25_1,24/25_2
+63202,Osnove matematične analize,173,0,196,0,232,0,229,0,228,0,203,0
+63203,Diskretne strukture,173,0,194,0,228,0,215,0,213,0,188,0
+63204,Osnove digitalnih vezij,216,0,251,0,268,0,249,0,259,0,220,0
+63205,Fizika,173,0,191,0,226,0,205,0,235,0,208,0
+63207,Linearna algebra,0,174,0,217,0,235,0,244,0,244,0,249
+63208,Osnove podatkovnih baz,2,0,136,0,169,0,180,0,191,0,172,0
+63209,Računalniške komunikacije,0,175,0,222,0,259,0,259,0,260,0,254
+63212,Arhitektura računalniških sistemov,0,218,0,239,0,269,0,253,0,262,0,234
+63213,Verjetnost in statistika,1,0,110,0,131,0,140,0,181,0,140,0
+63214,Osnove umetne inteligence,0,0,1,0,111,0,168,0,155,0,152,0
+63215,Osnove informacijskih sistemov,0,174,0,198,0,225,0,217,0,208,0,189
+63216,Teorija informacij in sistemov,0,1,0,102,0,151,0,146,0,178,0,158
+63217,Operacijski sistemi,0,1,0,103,0,138,0,131,0,159,0,141
+63218,Organizacija računalniških sistemov,1,0,108,0,131,0,125,0,150,0,128,0
+63219,Matematično modeliranje,0,1,0,23,0,43,0,48,0,42,0,47
+63220,Principi programskih jezikov,0,1,0,113,0,149,0,153,0,161,0,154
+63221,Računalniške tehnologije,0,0,0,9,0,7,0,13,0,16,0,2
+63226,Tehnologija upravljanja podatkov,0,0,0,0,17,0,24,0,19,0,18,0
+63248,Ekonomika in podjetništvo,0,0,27,0,65,0,77,0,65,0,41,0
+63249,Elektronsko poslovanje,0,0,0,0,14,0,22,0,14,0,17,0
+63250,Organizacija in management,0,0,0,0,0,39,0,59,0,50,0,32
+63251,Uvod v odkrivanje znanj iz podatkov,0,0,0,0,0,69,0,105,0,94,0,78
+63252,Razvoj informacijskih sistemov,0,0,0,0,0,10,0,14,0,14,0,14
+63253,Planiranje in upravljanje informatike,0,0,0,0,0,13,0,16,0,20,0,15
+63254,Postopki razvoja programske opreme,0,0,0,0,38,0,51,0,29,0,37,0
+63255,Spletno programiranje,0,0,0,0,52,0,72,0,51,0,68,0
+63256,Tehnologija programske opreme,0,0,0,1,0,69,0,127,0,112,0,107
+63257,Modeliranje računalniških omrežij,0,0,0,0,5,0,19,0,11,0,17,0
+63258,Komunikacijski protokoli,0,0,0,0,0,9,0,23,0,9,0,17
+63259,Brezžična in mobilna omrežja,0,0,0,0,0,8,0,25,0,12,0,18
+63260,Digitalno načrtovanje,0,0,0,0,18,0,27,0,20,0,18,0
+63261,Porazdeljeni sistemi,0,0,1,0,15,0,43,0,30,0,45,0
+63262,Zanesljivost in zmogljivost računalniških sistemov,0,0,0,0,0,6,0,10,0,8,0,5
+63263,Analiza algoritmov in hevristično reševanje problemov,0,0,0,0,0,17,0,25,0,15,0,29
+63264,Sistemska programska oprema,0,0,0,0,19,0,21,0,15,0,23,0
+63265,Prevajalniki,0,0,0,0,0,25,0,28,0,20,0,31
+63266,Inteligentni sistemi,0,0,1,0,66,0,103,0,93,0,68,0
+63267,Umetno zaznavanje,0,0,1,0,68,0,103,0,97,0,75,0
+63268,Razvoj inteligentnih sistemov,0,0,0,7,0,56,0,70,0,60,0,57
+63269,Računalniška grafika in tehnologija iger,0,0,1,0,34,0,53,0,51,0,41,0
+63270,Multimedijski sistemi,0,0,0,0,22,0,28,0,41,0,27,0
+63271,Osnove oblikovanja,0,0,0,0,0,31,0,49,0,46,0,37
+63277,Programiranje 1,216,0,239,0,278,0,281,0,290,0,272,0
+63278,Programiranje 2,0,217,0,267,0,323,0,373,0,342,0,366
+63279,Algoritmi in podatkovne strukture 1,2,0,130,0,139,0,183,0,188,0,175,0
+63280,Algoritmi in podatkovne strukture 2,0,2,0,128,0,176,0,173,0,192,0,188
+63281,Diplomski seminar,0,0,0,1,0,87,0,191,0,210,0,206
+63283,Izračunljivost in računska zahtevnost,2,0,137,0,174,0,202,0,252,0,235,0
+63284D,Tehnične veščine,0,0,3,0,9,0,0,0,0,0,0,0
+63286,,0,0,0,0,0,0,0,0,2,0,0,0
+63287,Programiranje specifičnih platform,0,0,0,0,0,33,0,46,0,52,0,50
+63288,,0,0,0,1,0,2,0,4,0,1,0,1
+63289,,0,0,0,0,0,0,0,0,0,0,2,0
+63701,Uvod v računalništvo,170,0,183,0,208,0,207,0,197,0,204,0
+63702,Programiranje 1,170,0,187,0,215,0,213,0,210,0,234,0
+63702DJ,Programiranje I,0,0,0,0,0,0,1,0,0,0,0,0
+63702I,,0,0,0,0,0,0,0,0,0,0,5,0
+63703,Računalniška arhitektura,170,0,182,0,215,0,209,0,197,0,190,0
+63704,Matematika,170,0,214,0,241,0,248,0,241,0,254,0
+63705,Diskretne strukture,170,0,200,0,229,0,238,0,226,0,237,0
+63706,Programiranje 2,0,163,0,186,0,215,0,222,0,230,0,240
+63707,Podatkovne baze,0,162,0,185,0,208,0,208,0,188,0,206
+63708,Računalniške komunikacije,0,162,0,190,0,230,0,234,0,213,0,224
+63709,Operacijski sistemi,0,162,0,203,0,237,0,252,0,228,0,241
+63710,Osnove verjetnosti in statistike,0,170,0,217,0,235,0,243,0,251,0,288
+63711,Algoritmi in podatkovne strukture 1,8,0,103,0,138,0,151,0,122,0,133,0
+63712,Elektronsko in mobilno poslovanje,5,0,48,0,61,0,104,0,96,0,77,0
+63713,Podatkovne baze 2,2,0,29,0,67,0,64,0,55,0,42,0
+63714,Informacijski sistemi,4,0,55,0,48,0,92,0,78,0,79,0
+63715,Grafično oblikovanje,5,0,47,0,82,0,121,0,93,0,72,0
+63716,Komunikacijski protokoli in omrežna varnost,8,0,59,0,92,0,99,0,80,0,62,0
+63717,Organizacija računalnikov,0,0,20,0,55,0,58,0,50,0,59,0
+63718,Digitalna vezja,0,0,10,0,29,0,29,0,21,0,21,0
+63719,Računalniška grafika,5,0,42,0,85,0,73,0,50,0,58,0
+63720,Umetna inteligenca,2,0,55,0,103,0,86,0,63,0,90,0
+63721,Uporabniški vmesniki,0,3,0,64,0,83,0,81,0,68,0,54
+63722,Prevajalniki in navidezni stroji,0,0,0,9,0,29,0,36,0,25,0,32
+63723,Algoritmi in podatkovne strukture 2,0,8,0,99,0,134,0,144,0,114,0,127
+63724,Testiranje in kakovost,0,1,0,22,0,20,0,23,0,10,0,17
+63725,Razvoj informacijskih sistemov,0,3,0,48,0,37,0,59,0,60,0,51
+63726,Produkcija multimedijskih gradiv,0,5,0,29,0,46,0,50,0,61,0,42
+63727,Spletne tehnologije,0,1,0,55,0,91,0,92,0,69,0,51
+63728,Vhodno-izhodne naprave,0,0,0,23,0,49,0,35,0,38,0,31
+63729,Načrtovanje digitalnih naprav,0,0,0,9,0,17,0,16,0,8,0,13
+63732,Tehnologija programske opreme,0,0,4,0,77,0,131,0,117,0,99,0
+63734,Multimedijske tehnologije,0,0,2,0,8,0,24,0,17,0,12,0
+63735,Vzporedni in porazdeljeni sistemi in algoritmi,0,0,0,0,43,0,70,0,54,0,28,0
+63736,Sistemska programska oprema,0,0,1,0,24,0,36,0,35,0,31,0
+63737,Procesna avtomatika,0,0,6,0,23,0,21,0,13,0,15,0
+63738,Vgrajeni sistemi,0,0,1,0,17,0,43,0,45,0,55,0
+63739,Robotika in računalniško zaznavanje,0,0,1,0,23,0,31,0,21,0,12,0
+63740,Tehnologija iger in navidezna resničnost,0,0,1,0,13,0,48,0,35,0,19,0
+63741,Odločitveni sistemi,0,0,0,0,29,0,61,0,53,0,29,0
+63742,Numerične metode,0,0,0,0,19,0,20,0,31,0,11,0
+63744,Digitalno procesiranje signalov,0,0,23,0,0,64,0,23,0,25,0,21
+63749B,Izbrana poglavja iz računalništva in informatike,3,0,11,0,36,0,69,0,63,0,27,0
+63765,Podatkovno rudarjenje,0,0,0,41,0,80,0,69,0,40,0,61
+63766B,Tehnične veščine 2,0,0,0,0,0,0,0,0,0,0,0,4
+63767,Tehnične veščine,0,0,0,0,0,0,0,0,0,0,9,0
+63767A,Tehnične veščine,0,0,3,0,17,0,21,0,18,0,0,0
+63768,Planiranje in upravljanje informatike,0,0,1,0,34,0,42,0,43,0,50,0
+63770,Diplomski seminar,0,0,0,3,0,73,0,187,0,225,0,87
+63772,Pravni vidiki informacijskih tehnologij,0,0,0,0,0,0,0,0,0,7,0,14
+63773,Varnost organizacij,0,0,0,0,0,0,0,0,19,0,60,0
+63774,Varnost programov,0,0,0,0,0,0,0,0,0,21,0,53
+63775,Varnost podatkov,0,0,0,0,0,0,0,0,18,0,28,0
+63776,Programiranje energijsko omejenih naprav,0,0,0,0,0,0,0,0,2,0,9,0
+63779,Človeški vidiki varnosti,0,0,0,0,0,0,0,0,0,0,23,0
+63780,Varnost sistemov,0,0,0,0,0,0,0,0,0,0,24,0
