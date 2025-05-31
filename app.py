@@ -646,7 +646,7 @@ df = pd.read_csv("students_final.csv")
 subject_info = pd.read_csv("subjects_3.csv")
 subject_info = subject_info[~subject_info['student_year'].astype(str).str.contains("ni vnosov")]
 
-#prikaye zgodovino poljubnega predmeta
+#prikaze zgodovino poljubnega predmeta
 subject_viewer(df.copy(),subject_info.copy())
 
 #kalkulira sanso da naredis letnik glede na izbrane premdete
