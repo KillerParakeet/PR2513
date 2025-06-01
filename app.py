@@ -544,101 +544,55 @@ def subjectPassRateLast(SubjectCode,df_students):
 
     return round(next(reversed(Delez.values())),2)
 
-def kalkulator_sanse(df_students,df_subjects):
+def kalkulator_sanse(df_students, df_subjects):
     st.markdown("## Kalkulator sanse")
-    subjectName =  df_subjects.groupby(['subject_id']).apply(lambda x: x['subject_name'].to_string(index=False)).to_dict()
+    subjectName = df_subjects.groupby(['subject_id']).apply(lambda x: x['subject_name'].to_string(index=False)).to_dict()
     subjectFilterName = dict()
     subjectNameCode = dict()
-    subjectNameVSS,subjectCountVSS,subjectNameUNI,subjectCountUNI = count_subjects(df_students,df_subjects)
+    subjectNameVSS, subjectCountVSS, subjectNameUNI, subjectCountUNI = count_subjects(df_students, df_subjects)
 
     for el in subjectName:
-        if (el[:3] == "637" or el[:3] == "632") and (subjectCountVSS.get(el) and subjectCountVSS[el]>=10 or subjectCountUNI.get(el) and subjectCountUNI[el]>=10):
-            subjectFilterName[el]=subjectName[el]
-            subjectNameCode[subjectName[el]]=el
+        oznaka = ""
+        if el[:3] == "637":
+            oznaka = " (VSS)"
+        elif el[:3] == "632":
+            oznaka = " (UNI)"
+        else:
+            continue
 
-    subjectCodes = []
-    sa = []
-    sl = []
-    col1, col2, col3, col4, col5, col6, col7, col8, col9, col10 = st.columns(10)
-    with col1:
-        option1 = st.selectbox(
-        'Izberi predmet',
-        subjectFilterName.values(),
-        key="1")
-        subjectCodes.append(subjectNameCode[option1])
-    with col2:
-        option2 = st.selectbox(
-        'Izberi predmet',
-        subjectFilterName.values(),
-        key="2")
-        subjectCodes.append(subjectNameCode[option2])
-    with col3:
-        option3 = st.selectbox(
-        'Izberi predmet',
-        subjectFilterName.values(),
-        key="3")
-        subjectCodes.append(subjectNameCode[option3])
-    with col4:
-        option4 = st.selectbox(
-        'Izberi predmet',
-        subjectFilterName.values(),
-        key="4")
-        subjectCodes.append(subjectNameCode[option4])
-    with col5:
-        option5 = st.selectbox(
-        'Izberi predmet',
-        subjectFilterName.values(),
-        key="5")
-        subjectCodes.append(subjectNameCode[option5])
-    with col6:
-        option6 = st.selectbox(
-        'Izberi predmet',
-        subjectFilterName.values(),
-        key="6")
-        subjectCodes.append(subjectNameCode[option6])
-    with col7:
-        option7 = st.selectbox(
-        'Izberi predmet',
-        subjectFilterName.values(),
-        key="7")
-        subjectCodes.append(subjectNameCode[option7])
-    with col8:
-        option8 = st.selectbox(
-        'Izberi predmet',
-        subjectFilterName.values(),
-        key="8")
-        subjectCodes.append(subjectNameCode[option8])
-    with col9:
-        option9 = st.selectbox(
-        'Izberi predmet',
-        subjectFilterName.values(),
-        key="9")
-        subjectCodes.append(subjectNameCode[option9])
-    with col10:
-        option10 = st.selectbox(
-        'Izberi predmet',
-        subjectFilterName.values(),
-        key="10")
-        subjectCodes.append(subjectNameCode[option10])
+        if ((subjectCountVSS.get(el) and subjectCountVSS[el] >= 10) or
+            (subjectCountUNI.get(el) and subjectCountUNI[el] >= 10)):
+            ime_z_oznako = subjectName[el] + oznaka
+            subjectFilterName[el] = ime_z_oznako
+            subjectNameCode[ime_z_oznako] = el
 
-    for subject in subjectCodes:
-        sa.append(subjectPassRateAvg(subject,df_students))
-        sl.append(subjectPassRateLast(subject,df_students))
+    # Multiselect za izbiro predmetov
+    selected_subjects = st.multiselect(
+        "Izberi predmete:",
+        options=list(subjectFilterName.values()),
+        default=[],
+        key="multiselect_predmeti"
+    )
 
+    # Gumb za izračun
+    if st.button("Izračunaj"):
+        if selected_subjects:
+            subjectCodes = [subjectNameCode[subj] for subj in selected_subjects]
+            sa = [subjectPassRateAvg(subject, df_students) for subject in subjectCodes]
+            sl = [subjectPassRateLast(subject, df_students) for subject in subjectCodes]
 
-    passChanceAvg = 1
-    passChancelast = 1
+            passChanceAvg = 1
+            passChancelast = 1
 
-    for i in range(len(sa)):
-        passChanceAvg=round(passChanceAvg*(1-sa[i]),2)
-        passChancelast=round(passChancelast*(1-sl[i]),2)
+            for i in range(len(sa)):
+                passChanceAvg = round(passChanceAvg * (1 - sa[i]), 2)
+                passChancelast = round(passChancelast * (1 - sl[i]), 2)
 
-    st.write("izbarni predmeti:")
-    for subject in subjectCodes:
-        st.write(subjectName[subject]," ",subject)
+            st.write("Sansa da naredis letnik z izbranimi predmeti glede na povprecje: " + str(passChanceAvg * 100) + "%")
+            st.write("Sansa da naredis letnik z izbranimi predmeti glede na zadnje leto: " + str(passChancelast * 100) + "%")
+        else:
+            st.info("Izberi vsaj en predmet.")
 
-    st.write("Sansa da naredis letnik z izbranimi predmeti glede na povprecje: " + str(passChanceAvg*100)+"%")
-    st.write("Sansa da naredis letnik z izbranimi predmeti glede na zadnje leto: " + str(passChancelast*100)+"%")
 
 
 # Naloži podatke
