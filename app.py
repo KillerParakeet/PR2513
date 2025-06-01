@@ -410,10 +410,21 @@ def subject_viewer(df_students,df_subjects):
     subjectNameCode = dict()
     subjectNameVSS,subjectCountVSS,subjectNameUNI,subjectCountUNI = count_subjects(df_students,df_subjects)
 
+
     for el in subjectName:
-        if (el[:3] == "637" or el[:3] == "632") and (subjectCountVSS.get(el) and subjectCountVSS[el]>=10 or subjectCountUNI.get(el) and subjectCountUNI[el]>=10):
-            subjectFilterName[el]=subjectName[el]
-            subjectNameCode[subjectName[el]]=el
+        oznaka = ""
+        if el[:3] == "637":
+            oznaka = " (VSS)"
+        elif el[:3] == "632":
+            oznaka = " (UNI)"
+        else:
+            continue
+
+        if ((subjectCountVSS.get(el) and subjectCountVSS[el] >= 10) or
+            (subjectCountUNI.get(el) and subjectCountUNI[el] >= 10)):
+            ime_z_oznako = subjectName[el] + oznaka
+            subjectFilterName[el] = ime_z_oznako
+            subjectNameCode[ime_z_oznako] = el
 
     option = st.selectbox(
         'Izberi predmet',
