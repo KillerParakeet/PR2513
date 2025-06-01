@@ -20,11 +20,11 @@ Na podoben način se bomo lotili tudi pridobivanja podatkov o študentih. Naša 
 
 Uporabili smo podatke, ki smo jih najprej pridobili, kljub pomanjkljivim šifram, saj je program za pridobitev podatkov o študentih časovno zelo zamuden in ga nismo imeli časa pognati še enkrat. Razmišljali smo, kaj lahko ugotovimo iz danih podatkov in prišli do dveh vprašanj. Prvo nas je zanimalo, koliko študentov se je vpisalo na VSŠ program čez leta. To smo ugotovili preprosto tako, da smo prešteli število vpisnih z dano letnico in podatke prikazali na grafu.
 
-![Graf vpisa skozi leta](./slike/vpis_po_letih.png)
+![Graf vpisa skozi leta](../slike/vpis_po_letih.png)
 
 Drugo vprašanje, na katerega smo odgovorili, pa je bilo število vpisanih študentov po predmete. Pomagali smo si s slovarjem, kamor smo shranili predmet kot ključ in število vpisanih študentov kot vrednost. Tudi to smo prikazali na grafu.
 
-![Graf študentov po predmetih](./slike/st_vpisanih_na_predmet.png)
+![Graf študentov po predmetih](../slike/st_vpisanih_na_predmet.png)
 
 ##### Glavne ugotovitve
 

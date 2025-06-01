@@ -20,17 +20,17 @@ Sedaj smo morali podatke pripraviti na obdelavo. V tabeli študentov je bilo vel
 
 Na podatkih smo izvedli tudi izračun korelacije in s pomočjo tega izrisali heatmap. Težko kaj preberemo iz slike, edino lahko sklepamo, da je prvih 10 predmetov na začetku obveznih v 1. letniku, saj so vsi močno korelirani med sabo. Predvidevamo še, da so Algoritmi in podatkovne strukture 1 in 2, Tehnologija programske opreme in Diplomski seminar obvezni predmeti v višjih letnikih. Za razliko od heatmapa pa je dendrogram veliko bolj v pomoč. Grupira skupaj predmete po podobnosti. Za VSŠ program je z zeleno barvo skupaj grupiral vse predmete 1. letnika in to z veliko podobnostjo. V oranžni skupini na začetku so manj pogosti oz. novejši izbirni predmeti, v ostalih skupinah pa so skupaj predmeti, ki so vsebinsko podobni in si na predmetniku sledijo s puščicami. Podobno opazimo za UNI predmete. Najbližje grupira predmete 1. letnika, sledijo predmeti 2. letnika, nato pa še modulski predmeti v skupinah po 4.
 
-![Heatmap VSŠ](./slike/heatmapVSS.png)
+![Heatmap VSŠ](../slike/heatmapVSS.png)
 
-![Dendrogram VSŠ](./slike/dendrogramVSS.png)
+![Dendrogram VSŠ](../slike/dendrogramVSS.png)
 
 Analizirali smo število vpisov na vsak predmet na programu UNI in VSŠ, posebej. Na UNI odločno vodi Programiranje 2, nato sledi ostalih 9 predmetov iz 1. letnika. To je smiselno, saj je v 1. letniku največ študentov, ne gredo pa vsi naprej v 2. letnik. Zelo podobno stanje imamo na programu VSS, kjer nepresenetljivo vodi Osnove verjetnosti in statistike, sledijo pa ostali predmeti 1. letnika.  Preverili smo tudi, koliko je takih študentov, ki se vpišejo v 1. letnik in naslednje leto ne nadaljujejo študija. Vrednosti nihajo med približno 20% in 30%, kar je dobra petina oz. slaba tretjina, odvisno od leta.
 
-![Število vpisov po predmetih (UNI)](./slike/predmeti_vpisiUNI.png)
+![Število vpisov po predmetih (UNI)](../slike/predmeti_vpisiUNI.png)
 
-![Število vpisov po predmetih (VSŠ)](./slike/predmeti_vpisiVSS.png)
+![Število vpisov po predmetih (VSŠ)](../slike/predmeti_vpisiVSS.png)
 
-![Delež študentov, ki so se vpisali samo v 1. letnik](./slike/samo1leto.png)
+![Delež študentov, ki so se vpisali samo v 1. letnik](../slike/samo1leto.png)
 
 Odločili smo se, da bomo izračunali tudi prehodnost predmetov oz. `pass rate`. Vzeli smo končno tabelo študentov, in jo "obrnili". Zdaj je vsaka vrstica predstavljala predmet, vsaka celica pa je vsebovala seznam študentov, ki so ta predmet imeli na urniku v določenem letu. Ker smo imeli podatke le o študentih, vpisanih od leta 2019 naprej, smo morali za predmete, ponujene v višjih letnikih izračunati zamik oz. `offset`. Za predmet, ki se izvaja v 3. letniku, ni smiselno računati prehodnosti leta 2019, ko imamo podatke samo o brucih. 
 
