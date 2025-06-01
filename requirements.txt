@@ -1,2 +1,2 @@
-scipy.cluster.hierarchy
+scipy
 seaborn
