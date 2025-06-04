@@ -1,3 +1,4 @@
+import re
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -605,17 +606,79 @@ def kalkulator_sanse(df_students, df_subjects):
             st.info("Izberi vsaj en predmet.")
 
 
+def zgodovina_studenta(df_students, df_subjects):
+    st.markdown("## Zgodovina študenta")
+
+    df_students_id = df_students[['student_id']].copy()
+    valid_options = df_students_id['student_id'].astype(str).tolist()
+
+    option = st.selectbox('Izberi vpisno številko:', valid_options)
+
+    if st.button("Postalkaj vpisno"):
+        selected_student_id = int(option)
+
+        selected_student_row = df_students[df_students['student_id'] == selected_student_id]
+        
+        if selected_student_row.empty:
+            st.write("No data found for the selected student ID.")
+            return
+
+        selected_student_row = selected_student_row.iloc[0]
+
+        student_subjects = {}
+
+        for column in selected_student_row.index:
+            if column == 'student_id':
+                continue
+
+            cell_value = selected_student_row[column]
+            if isinstance(cell_value, str):
+                try:
+                    subject_ids = ast.literal_eval(cell_value)
+                except (ValueError, SyntaxError):
+                    subject_ids = []
+            else:
+                subject_ids = []
+
+            subjects = []
+
+            for sub_id in subject_ids:
+                if str(sub_id)[2:3] == '5':
+                    continue
+                subject_name = df_subjects.loc[df_subjects['subject_id'] == sub_id, 'subject_name'].values
+                subject_program = 'UNI' if str(sub_id)[2:3] == '2' else 'VSS'
+                if subject_name.size > 0:
+                    subjects.append(f"{subject_name[0]} ({subject_program})")
+                else:
+                    subjects.append(f"{sub_id} (zaradi nekega razloga ni imena)")
+
+            if subjects:
+                student_subjects[column] = subjects
+
+
+        for key, subjects in student_subjects.items():
+            year, semester = key.split('_')
+            st.write(f"Leta {year} v {semester}. semestru, je študent/ka z vpisno številko {selected_student_id} imel/a naslednje predmete:")
+            for subject in subjects:
+                st.write(f"- {subject}")
+            # zakomentirana opcija izpise vse v eni vrstici. manj za scrollat, also manj berljivo
+            #subjects_line = ", ".join(subjects)
+            #st.write(f"Leta {year} v {semester} semestru, je študent/ka z vpisno številko {selected_student_id} imel/a naslednje predmete:\n- {subjects_line}")
+
 
 # Naloži podatke
 df = pd.read_csv("students_final.csv")
-subject_info = pd.read_csv("subjects_3.csv")
-subject_info = subject_info[~subject_info['student_year'].astype(str).str.contains("ni vnosov")]
+subjects = pd.read_csv("subjects_3.csv")
+subject_info = subjects[~subjects['student_year'].astype(str).str.contains("ni vnosov")]
 
 #prikaze zgodovino poljubnega predmeta
 subject_viewer(df.copy(),subject_info.copy())
 
 #kalkulira sanso da naredis letnik glede na izbrane premdete
 kalkulator_sanse(df.copy(),subject_info.copy())
+
+# zgodovina studenta
+zgodovina_studenta(df.copy(), subjects.copy())
 
 # Izriši analizo za oba programa
 draw_heatmap_dendrogram(df.copy(), subject_info.copy(), 'VSS')
@@ -632,4 +695,3 @@ draw_stevilo_vpisov_predmeti(df.copy(),subject_info.copy())
 
 #izpise statistiko ponavljanja predmetov
 draw_ponovni_vpisi_predemti(df.copy(),subject_info.copy())
-
